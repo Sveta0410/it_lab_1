@@ -3,7 +3,7 @@ public class Primes {
     // метод main предназначен для вывода на экран всех простых чисел от 2 до 100
     public static void main(String[] args) {
         for (int j = 2; j < 101; j++) {
-            if (isPrime(j) == true) {
+            if (isPrime(j)) {
                 System.out.print(j + " ");
             }
         }
