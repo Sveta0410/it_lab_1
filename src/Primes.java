@@ -4,9 +4,10 @@ public class Primes {
     public static void main(String[] args) {
         for (int j = 2; j < 101; j++) {
             if (isPrime(j) == true) {
-                System.out.println(j);
+                System.out.print(j + " ");
             }
         }
+        System.out.println("");
     }
     // метод isPrime предназначен для проверки, является число простым или нет
     public static boolean isPrime(int n) {
